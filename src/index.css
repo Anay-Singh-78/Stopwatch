@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    background-image: linear-gradient(45deg , aquamarine , teal);
+}
+.mainText{
+    color: lightgoldenrodyellow;
+    font-weight: 600;
+    font-family:cursive;
+}
+.catchPhrase{
+    color:midnightblue;
+    font-weight: 600;
+    opacity: 40%;
+    font-family: monospace;
+    margin-top: 4px;
+}
+.digits{
+    font-size:xx-large;
+    font-family:"Nunito";
+    font-weight: 600;
+}
+.play{
+    color: teal;
+    background-image: linear-gradient(-45deg , bisque , pink);
+}
+.reset{
+    color:teal;
+    background-image: linear-gradient(-45deg , bisque , pink);
+}
