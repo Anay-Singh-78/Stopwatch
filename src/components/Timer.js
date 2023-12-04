@@ -4,16 +4,6 @@ const Timer = ({time}) => {
     const hr = Math.floor(time / 3600000);
   return (
     <div className=' bg-white p-8 flex gap-4 rounded-3xl'>
-        {/* <span className='digits'>
-
-            {
-                hr > 0 ? (<span>
-                    {
-                        ("0"+hr).slice(-2)
-                    }
-                </span>) : ("")
-            }
-        </span> */}
         <span className="digits">
             {("0"+hr).slice(-2)}
             </span>

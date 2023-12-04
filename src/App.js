@@ -1,8 +1,4 @@
-import { useEffect, useRef, useState } from "react";
 import StopWatch from "./components/StopWatch";
-
-
-
 function App() {
  
   return (

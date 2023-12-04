@@ -1,7 +1,8 @@
 import React from 'react'
 import {FaPause  ,FaPlay} from 'react-icons/fa6'
 import {BiReset} from 'react-icons/bi'
-const Buttons = ({time ,isActive ,isStop , handleStart,handleReset,playAndPause}) => {
+import { GiFlyingFlag } from "react-icons/gi";
+const Buttons = ({time ,isActive ,isStop , handleStart,handleReset,playAndPause , handleLap}) => {
   return (
     <div className='w-full justify-center flex'>
         {
@@ -17,6 +18,9 @@ const Buttons = ({time ,isActive ,isStop , handleStart,handleReset,playAndPause}
                 }
                 <button onClick={handleReset}  className=' reset w-[3.5rem] rounded-full flex justify-center items-center aspect-square '>
                     <BiReset className=' w-10 h-10 '/>
+                </button>
+                <button className=' reset w-[3.5rem] rounded-full flex justify-center items-center aspect-square ' onClick={handleLap}>
+                <GiFlyingFlag  className=' w-10 h-10 '/>
                 </button>
             </div>)
         }
